@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+:root{
+    --cor-de-fundo: #f3faf9;
+    --cor-primaria: #343131;
+    --cor-secundaia: #153448;
+    --cor-terciaria: #3C5B6F;
+    --fonte:"Silkscreen", sans-serif;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-primaria);
+    height: 100vh;
+    font-family: var(--fonte);
+}
