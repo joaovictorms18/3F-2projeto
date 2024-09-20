@@ -3,10 +3,9 @@
 :root{
     --cor-de-fundo: #f3faf9;
     --cor-primaria: #343131;
-    --cor-secundaia: #153448;
+    --cor-secundaia: #0733ac;
     --cor-terciaria: #3C5B6F;
     --fonte:"Silkscreen", sans-serif;
-
 }
 
 *{
@@ -20,4 +19,32 @@ body{
     color: var(--cor-primaria);
     height: 100vh;
     font-family: var(--fonte);
+}
+
+header{
+  background-color: var(--cor-primaria);
+}
+h1{
+  color: var(--cor-secundaia);
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+ 
+}
+nav{
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+}
+nav a{
+text-decoration:wavy;
+color: var(--cor-secundaia);
+margin: 0 2rem 1rem;
+font-size: 1.2rem;
+}
+nav a:hover{
+  text-decoration: underline;
+  transform: scale(1.2);
+  transition: transform 0.5s;
 }
