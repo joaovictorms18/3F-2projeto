@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
 :root{
-    --cor-de-fundo: #f3faf9;
-    --cor-primaria: #343131;
-    --cor-secundaia: #0733ac;
-    --cor-terciaria: #3C5B6F;
+    --cor-de-fundo: #FFF4EA;
+    --cor-primaria: hsl(220, 12%, 5%);
+    --cor-secundaria: #5345d3;
+    --cor-terciaria: #122372;
     --fonte:"Silkscreen", sans-serif;
 }
 
 *{
-  margin: 0;
-  padding: 0;
+    padding: 0;
+    margin: 0;
 }
-
 
 body{
     background-color: var(--cor-de-fundo);
@@ -22,29 +21,49 @@ body{
 }
 
 header{
-  background-color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    text-align: center;
 }
+
 h1{
-  color: var(--cor-secundaia);
-  font-size: 2rem;
-  font-weight: 700;
-  display: flex;
-  justify-content: center;
- 
+    color: var(--cor-primaria);
+    font-size: 2rem;
+    font-weight: 700;
 }
+
 nav{
-  display: flex;
-  justify-content: center;
-  font-weight: 400;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
 }
+
 nav a{
-text-decoration:wavy;
-color: var(--cor-secundaia);
-margin: 0 2rem 1rem;
-font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--cor-primaria);
+    margin: 0 2rem 1rem 0;
+    font-size: 1.2rem;
 }
+
 nav a:hover{
-  text-decoration: underline;
-  transform: scale(1.2);
-  transition: transform 0.5s;
+    text-decoration: underline;
+    transform: scale(0.9);
+    transition: transform 0.5s;
+}
+span{
+    color: var(--cor-secundaria);
+    font-weight: bold;
+}
+footer{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-de-fundo);
+    text-align: center;
+}
+.graficos-container{
+    margin: 5rem;
+}
+.graficos-texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--cor-terciaria) solid 2px;
 }
