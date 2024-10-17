@@ -10,7 +10,9 @@ async function quantidadedeusuarios(){
         {
             x:nomeDasRedes,
             y:quantidadeDeUsuarios,
-            type: 'bar'
+            type: 'bar'}
+            maker:{
+        color: getCSS('--cor-primaria')
         }
     ]
 
