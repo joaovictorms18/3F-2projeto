@@ -7,5 +7,5 @@ const tickfont={
     family:getCSS('--fonte')
 }
 export{
-    getCSS
+    getCSS, tickfont
 }
