@@ -2,7 +2,7 @@
 
 :root{
     
-    --cor-de-fundo: #FFF4EA;
+    --cor-de-fundo: #f9fafc;
     --cor-primaria: hsl(220, 12%, 5%);
     --cor-secundaria: #5345d3;
     --cor-terciaria: #122372;
@@ -60,6 +60,9 @@ footer{
 span{
     color: var(--cor-secundaria);
     font-weight: bold;
+}
+.grafico{
+    margin-top: 5rem;
 }
 
 .graficos-container{
